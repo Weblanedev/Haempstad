@@ -11,7 +11,7 @@ export default function InformationSection() {
         <span>Phone:</span> +234-908-560-3575
       </p>
       <p>
-        <span>Location:</span> Lagos, Nigeria
+        <span>Location:</span> House 11, Greenpark Estate, Alexander, Abule Egba, Lagos
       </p>
     </Wrapper>
   );
