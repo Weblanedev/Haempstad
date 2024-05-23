@@ -7,7 +7,6 @@ import { getAllPosts } from 'utils/postsFetcher';
 import Cta from 'views/HomePage/Cta';
 import FeaturesGallery from 'views/HomePage/FeaturesGallery';
 import Hero from 'views/HomePage/Hero';
-import Partners from 'views/HomePage/Partners';
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
@@ -22,7 +21,6 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          <Partners />
           <BasicSection imageUrl="https://images.pexels.com/photos/9389356/pexels-photo-9389356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" title="Our Mission" overTitle="">
             <p>
             At Haempstad Solutions Ltd, our mission is to empower our customers with the tools, materials, and expertise they need to turn their dreams into reality. We are committed to providing top-quality products, exceptional service, and expert guidance to help homeowners and contractors alike achieve their home improvement goals with confidence and ease.
